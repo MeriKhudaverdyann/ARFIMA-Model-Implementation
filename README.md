@@ -41,7 +41,6 @@ The application accepts any **univariate time series dataset** in CSV format. Us
 - **Column Selector:** Choose which column to analyze  
 - **Plot Output:** All visual outputs are embedded and scrollable  
 - **Forecast Visuals:** Train-test-forecast comparison  
-- **User Control:** Clear and intuitive button layout for all actions  
 
 ---
 
