@@ -19,7 +19,6 @@ The application accepts any **univariate time series dataset** in CSV format. Us
 
 ### 1. Fractal Feature Extraction  
 - **Hurst Exponent:** Estimated using rescaled range (R/S) analysis to assess long-term memory in the series  
-- **Fractal Dimension:** Box-counting method is used to estimate the self-similarity and complexity of the time series  
 
 ### 2. Stationarity and Seasonal Decomposition  
 - **Stationarity Tests:** Includes Augmented Dickey-Fuller (ADF) and KPSS tests  
@@ -27,8 +26,7 @@ The application accepts any **univariate time series dataset** in CSV format. Us
 
 ### 3. ARFIMA Forecasting Model  
 - **Fractional Differencing:** The order of differencing `d` is automatically estimated  
-- **Model Fitting:** ARFIMA model is fitted using MLE (Maximum Likelihood Estimation)  
-- **Simulation & Forecasting:** Future values are predicted with confidence intervals  
+- **Model Fitting:** ARFIMA model is fitted using GPH semi-parametric estimation method  
 
 ### 4. Forecast Evaluation  
 - Metrics like **RMSE** and **MAE** are computed on test data  
